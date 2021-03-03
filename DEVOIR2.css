@@ -1,0 +1,151 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: cursive;
+	text-decoration: none;
+	list-style: none;
+}
+
+.nav1{
+	background-color: crimson;
+	width: 100%;
+	position: fixed;
+	padding: 	15px 0px;
+}
+.nav1 .amy{
+	width: 1300px;
+	display: flex;
+	justify-content: space-between;
+	margin:auto	;
+}
+.ablaye a{
+	color: #fff;
+	font-size: 40px;
+	font-weight: 500;
+}
+.ablaye a span {
+	color: black;
+}
+.rose{
+	margin-top: 6px;
+}
+.rose li{
+	display: inline-block;
+}
+.rose li a{
+	color:white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px;
+	transition: color 2s;
+}
+.rose li a:hover{
+	color:black;
+}
+/*******************************************************/
+.nabou{
+	background:url('images (7).jpg');
+	height:800px;
+	display:flex;
+	background-repeat: no-repeat;
+	background-size: 100%;	
+}
+.nabou .amy{
+	color: 	white;
+	margin:auto 120px;
+}
+.nabou .amy.text-1{
+	font-size: 	40px;
+	font-weight:600;
+
+}
+.nabou .amy .text-2{
+	color: 	crimson;
+	font-size: 60px;
+	font-weight: 	500;
+}
+.nabou .amy.text-3{
+		font-size: 	50px;
+		font-weight: 700;
+}
+.nabou .amy .text-3 span{
+	color: 	crimson;
+}
+.nabou .amy a{
+	display:inline-block;	
+	font-size: 	40px;
+	font-weight: 	200;
+	background-color: 	crimson;
+	color: 	white;
+	border-radius: 	20px;
+	padding: 	15px 30px;
+	margin-top: 	20px;
+	border:2px solid crimson	;
+
+
+}
+.nabou.amy a:hover{
+	background:none;
+	color:blue;
+
+	
+}
+/*******************************************************************/
+.abi{
+	padding:50px 150px;
+}
+.abi.gueye{
+	font-size: 	40px;
+	font-weight: 	500;
+	text-align: 	center;	
+	text-decoration: 	underline crimson;	
+
+}
+.abi .lo{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 60px;	
+
+
+}
+.abi .div-left{
+	width: 45%;
+
+}
+.abi .div-right{
+	width:55%;
+}
+.abi .div-left img{
+	height: 400px;
+	width: 400px;
+	border-radius: 70px;
+	object-fit: cover;
+	
+}
+.abi .div-right .text1{
+	font-size: 	35px;
+	font-weight: 	600;
+
+}
+.abi .div-right .text1 span{
+	color: 	crimson;
+}
+.abi .div-right p{
+	text-align: 	justify;
+	font-size: 	20px;	
+}
+.abi .div-right a{
+	display:inline-block;	
+	font-size: 	40px;
+	font-weight: 	200;
+	background-color: 	crimson;
+	color: 	white;
+	border-radius: 	20px;
+	padding: 	15px 30px;
+	margin-top: 	20px;
+	border:2px solid crimson;
+}
+.abi .div-right a:hover{
+	background:none;
+	color: 	blue;
+}
